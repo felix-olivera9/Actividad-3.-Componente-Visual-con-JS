@@ -1,7 +1,5 @@
 #  Componente Visual Interactivo: Minecraft Health Bar
 
----
-
 ## ¿Qué problema resuelve?
 El desarrollo de interfaces web interactivas a menudo requiere programar elementos visuales dinámicos desde cero (como barras de vida, efectos de daño, pantallas de estado o animaciones personalizadas) en cada vista, lo que genera código repetitivo. Este componente resuelve dicho problema al proporcionar una interfaz visual reutilizable, modular y escrita en JavaScript puro. Encapsula tanto su estructura como sus estilos CSS y recursos gráficos, permitiendo integrarlo en cualquier página web sin necesidad de frameworks pesados como React o Vue.
 
@@ -56,4 +54,4 @@ Una vez importados los archivos, puedes instanciar e inicializar el componente v
 **Video Promocional**
 
 Haz clic en la imagen para ver la demostración en video del componente en acción:
-[![Ver Video Demo]()](https://youtu.be/3ZFottIS0Mo)
+[![Ver Video Demostrativo]](https://youtu.be/VwwoXpDvY9w)
