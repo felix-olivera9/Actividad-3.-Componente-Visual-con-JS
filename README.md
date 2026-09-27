@@ -21,31 +21,39 @@ Para utilizar este componente visual en tu proyecto, asegúrate de tener la sigu
 ```
 Luego, incluye la hoja de estilos en la etiqueta <head> y el archivo JavaScript antes de cerrar el <body> de tu documento HTML:
 
-HTML
+```html
 <!-- En el head de tu HTML -->
 <link rel="stylesheet" href="css/componente.css">
-
+```
+---
+```html
 <!-- Antes de cerrar el body -->
 <script src="js/componente.js"></script>
- Uso y Ejemplos de Código
+```
+---
+## Uso y Ejemplos de Código
 Una vez importados los archivos, puedes instanciar e inicializar el componente visual pasándole un contenedor HTML y la ruta de tu imagen de preferencia:
 
 1. Preparar el contenedor HTML
-HTML
+```html
 <div id="contenedor-prueba"></div>
+```
+---
 2. Inicializar el componente mediante JavaScript
-JavaScript
+```javascript
 <script>
   // Instancia reutilizable del componente visual
   const barraSalud = new MinecraftHealthBar('contenedor-prueba', 'img/imagendepreferencia.png');
 </script>
-📸 Capturas de Pantalla
+```
+## Capturas de Pantalla y video
 
 **Componente Visual en Estado Normal / Interactivo:**
 ![Normal](img/estado-normal.png)
 ![daño](img/estado-daño.png)
 ![muerte](img/estado-muerte.png)
 
-🎥 Video Promocional
+Video Promocional
+
 Haz clic en la imagen para ver la demostración en video del componente en acción:
 [![Ver Video Demo]()](https://youtu.be/3ZFottIS0Mo)
