@@ -53,7 +53,7 @@ Una vez importados los archivos, puedes instanciar e inicializar el componente v
 ![daño](img/estado-daño.png)
 ![muerte](img/estado-muerte.png)
 
-Video Promocional
+**Video Promocional**
 
 Haz clic en la imagen para ver la demostración en video del componente en acción:
 [![Ver Video Demo]()](https://youtu.be/3ZFottIS0Mo)
