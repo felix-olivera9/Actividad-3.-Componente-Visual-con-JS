@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Componente Visual - Minecraft Health Bar</title>
+  <!-- Enlace a los estilos del componente -->
+  <link rel="stylesheet" href="css/componente.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1e1e1e;
+      color: white;
+      text-align: center;
+      padding: 40px;
+    }
+    h1 {
+      color: #55ff55;
+    }
+    p {
+      color: #aaa;
+      max-width: 500px;
+      margin: 0 auto 20px auto;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Librería de Componentes Visuales Interactivos</h1>
+  <p>Demostración del componente visual de barra de vida de Minecraft, con animaciones dinámicas, efectos de veneno y pantalla de muerte usando recursos locales.</p>
+
+  <!-- Contenedor donde se monta el componente visual -->
+  <div id="app-salud"></div>
+
+  <!-- Importación de la librería lógica del componente -->
+  <script src="js/componente.js"></script>
+  <script>
+    // Inicialización pasando la ruta de la imagen de muerte en la carpeta img
+    const barraSalud = new MinecraftHealthBar('app-salud', 'img/death.png');
+  </script>
+</body>
+</html>
