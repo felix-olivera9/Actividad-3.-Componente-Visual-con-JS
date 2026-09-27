@@ -1,4 +1,4 @@
-# 🧩 Componente Visual Interactivo: Minecraft Health Bar
+#  Componente Visual Interactivo: Minecraft Health Bar
 
 **Autor:** Félix Eliel Olivera Jiménez  
 **Carrera:** Ingeniería en Sistemas Computacionales  
@@ -6,12 +6,12 @@
 
 ---
 
-## 🎯 ¿Qué problema resuelve?
+## ¿Qué problema resuelve?
 El desarrollo de interfaces web interactivas a menudo requiere programar elementos visuales dinámicos desde cero (como barras de vida, efectos de daño, pantallas de estado o animaciones personalizadas) en cada vista, lo que genera código repetitivo. Este componente resuelve dicho problema al proporcionar una interfaz visual reutilizable, modular y escrita en JavaScript puro. Encapsula tanto su estructura como sus estilos CSS y recursos gráficos, permitiendo integrarlo en cualquier página web sin necesidad de frameworks pesados como React o Vue.
 
 ---
 
-## 📦 Instalación
+## Instalación
 
 Para utilizar este componente visual en tu proyecto, asegúrate de tener la siguiente estructura de carpetas:
 
@@ -22,6 +22,7 @@ Para utilizar este componente visual en tu proyecto, asegúrate de tener la sigu
 │   └── componente.js
 └── /img
     └── death.png (opcional, ya que aqui puedes poner tu imagen de preferencia)
+```
 Luego, incluye la hoja de estilos en la etiqueta <head> y el archivo JavaScript antes de cerrar el <body> de tu documento HTML:
 
 HTML
@@ -30,7 +31,7 @@ HTML
 
 <!-- Antes de cerrar el body -->
 <script src="js/componente.js"></script>
-💻 Uso y Ejemplos de Código
+ Uso y Ejemplos de Código
 Una vez importados los archivos, puedes instanciar e inicializar el componente visual pasándole un contenedor HTML y la ruta de tu imagen de preferencia:
 
 1. Preparar el contenedor HTML
