@@ -1,9 +1,5 @@
 #  Componente Visual Interactivo: Minecraft Health Bar
 
-**Autor:** Félix Eliel Olivera Jiménez  
-**Carrera:** Ingeniería en Sistemas Computacionales  
-**Institución:** Tecnológico Nacional de México Campus Oaxaca  
-
 ---
 
 ## ¿Qué problema resuelve?
@@ -46,7 +42,7 @@ JavaScript
 📸 Capturas de Pantalla
 
 **Componente Visual en Estado Normal / Interactivo:**
-![Normal](img/estado-normal.png.png)
+![Normal](img/estado-normal.png)
 ![daño](img/estado-daño.png)
 ![muerte](img/estado-muerte.png)
 
